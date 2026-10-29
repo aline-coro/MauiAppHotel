@@ -44,7 +44,11 @@
                     </VerticalStackLayout>
                 </Frame>
 
-                <Button Text="Avançar" />
+                <Grid RowDefinitions="Auto" ColumnDefinitions="*, *" ColumnSpacing="10">
+                    <Button Grid.Row="0" Grid.Column="0" Text="Sobre" Clicked="Button_Clicked"/>
+                    <Button Grid.Row="0" Grid.Column="1" Text="Avançar" />
+                </Grid>
+
 
             </VerticalStackLayout>
         </Frame>
