@@ -11,7 +11,7 @@ public partial class Sobre : ContentPage
     {
         try
         {
-            await Navigation.PushAsync(new ContratacaoHospedagem());
+            await Navigation.PopAsync();
         }
         catch (Exception ex)
         {
